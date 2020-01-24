@@ -154,6 +154,47 @@
             </p>
         </section>
 
+        <!-- ScrollSpy-->
+        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">ScrollSpy</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">@Text-info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#warning">@Text-warning</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desplegar</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#succes">@Text-succes</a>
+                        <a class="dropdown-item" href="#primary">@Text-primary</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#danger">@Text-danger</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <h4 id="info">text-info</h4>
+            <p class="text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, quas! Voluptatem veniam non adipisci nihil saepe quisquam suscipit assumenda inventore autem rem quo facilis vel distinctio, facere vitae minus porro..</p cl>
+            <h4 id="warning">text-warning</h4>
+            <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, autem.</p>
+            <h4 id="succes">text-succes</h4>
+            <p class="text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quo consequuntur at voluptatibus numquam nihil nemo unde fugit architecto. Molestias minus esse nulla impedit quod doloribus quaerat vitae iste voluptate voluptas molestiae,
+                nihil beatae delectus labore vel laudantium rerum quis quam omnis corporis! Necessitatibus expedita, molestias, quibusdam eius voluptas numquam pariatur minus hic debitis velit ex ratione nobis distinctio quaerat quae? Rerum explicabo
+                laborum asperiores, porro reiciendis maxime atque, ut, ratione laboriosam amet nostrum ipsa voluptate. Consequatur quis aliquid atque, illo temporibus ipsa natus in ex debitis quos iste ipsum necessitatibus iusto aut, illum rerum voluptas
+                mollitia. Quibusdam ullam itaque eius assumenda magni voluptate! Reprehenderit sequi eum eligendi reiciendis tempore delectus magni culpa provident, beatae ipsam temporibus. Laudantium praesentium sit cum quam, quis eum dolorem, quibusdam
+                cupiditate sequi explicabo ad? Quisquam, consectetur rem blanditiis cum laboriosam sapiente repellat iusto suscipit quod, obcaecati repudiandae recusandae ipsa totam tenetur consequatur possimus debitis quam quae eos quos repellendus voluptatem
+                autem optio. Distinctio laborum, placeat molestiae ad enim reiciendis. Vel ratione dolorum, molestias nostrum debitis provident, quaerat recusandae incidunt voluptatibus magni rerum dolores aliquam repellat commodi omnis, ad architecto.
+                Non molestiae corporis a cum veniam officia sed natus ut illum voluptas id, commodi dolore?</p>
+            <h4 id="primary">text-primary</h4>
+            <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis animi quae fugit commodi hic magnam rerum odit magni explicabo. Repellat, recusandae, necessitatibus velit ex impedit voluptatum id molestias perferendis tempora maiores
+                corporis eveniet doloremque voluptas soluta quam consequatur quo eos esse nemo qui. Unde molestiae libero ad esse. Veniam!</p>
+            <h4 id="danger">text-danger</h4>
+            <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus ea consequuntur nesciunt dignissimos. Nostrum inventore ex facilis accusamus tempora.</p>
+        </div>
+
         <!-- Jumbotron -->
         <div class="jumbotron mt-5 bg-dark text-light rounded-0">
             <div class="container ">
@@ -194,6 +235,45 @@
             </div>
         </div>
 
+        <!--Formulario-->
+        <div class="container d-sm-flex">
+            <form>
+
+                <h1>Formulario</h1>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control" placeholder="juanito" value="" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Apellido</label>
+                        <input type="text" class="form-control" placeholder="Caminante" value="" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Ciudad</label>
+                        <input type="text" class="form-control" placeholder="ciudad" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label>Pais</label>
+                        <input type="text" class="form-control" placeholder="pais" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label>Codigo Postal</label>
+                        <input type="text" class="form-control" placeholder="C.P." required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" required>
+                        <label>Acepto los terminos y condiciones.</label>
+                    </div>
+                </div>
+                <button class="btn btn-dark" type="submit">Enviar</button>
+            </form>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
