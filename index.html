@@ -161,11 +161,36 @@
                 <p class="lead">¿Quieres saber mas sobre las bellotas?.</p>
                 <hr class="my-4">
                 <div class="d-flex justify-content-sm-between align-items-center">
-                    <p>Haz <i>click</i> ente enlace, le mostraremos todo lo que necesite saber sobre bellotas...</p>
+                    <p>Haz <i>click</i> en <i>"Saber más"</i>, le mostraremos todo lo que necesite saber sobre bellotas...</p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="https://es.wikipedia.org/wiki/Bellota" role="button">Saber más</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Saber mas
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog " role="document">
+                                <div class="modal-content bg-dark">
+                                    <div class="modal-header text-center">
+                                        <h3 class="modal-title text-warning text-center text-uppercase" id="exampleModalLabel">Informacion no disponible</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-warning">Lo sentimos, esta sección aún no esta terminada.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Volver</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </p>
                 </div>
+                <p> Tu opinion es muy importante, cuentanos! </p>
+                <a class="btn btn-secondary btn-lg" href="#" role="button">Contacto</a>
             </div>
         </div>
 
